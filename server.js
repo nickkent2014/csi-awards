@@ -11,20 +11,12 @@ app.use(bodyParser.urlencoded({
 
 
 
-app.listen(80, () => {
+app.listen(process.env.port || 80, () => {
   console.log("Application started and Listening on port 80");
 });
 
-app.use(express.static(__dirname));
+app.use(express.static("dist"));
 
 app.get("/", (req, res) => {
   res.sendFile(__dirname + "/dist/index.html");
 });
-
-app.get("/index.html", (req, res) => {                    //     merge / and /index.html?
-    res.sendFile(__dirname + "/dist/index.html");
-  });
-
-app.get("/categories.html", (req, res) => {
-    res.sendFile(__dirname + "/dist/categories.html");
-  });

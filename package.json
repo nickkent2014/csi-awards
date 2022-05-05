@@ -3,6 +3,9 @@
     "name": "startbootstrap-small-business",
     "version": "5.0.4",
     "description": "A small business HTML template built with Bootstrap",
+    "scripts": {
+        "start": "node server.js"
+      },
     "keywords": [
         "css",
         "sass",

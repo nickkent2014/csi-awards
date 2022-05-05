@@ -3,6 +3,6 @@
         "node_modules{,/**}",
         ".vscode{,/**}"
     ],
-    "appService.defaultWebAppToDeploy": "/subscriptions/456447c7-a533-4113-be4f-3e2164d8f6d6/resourceGroups/bmbc-csi-awards/providers/Microsoft.Web/sites/bmbc-csi-awards-voting",
+    "appService.defaultWebAppToDeploy": "/subscriptions/456447c7-a533-4113-be4f-3e2164d8f6d6/resourceGroups/bmbc-csi-awards/providers/Microsoft.Web/sites/bmbc-csi-awards",
     "appService.deploySubpath": "."
 }
