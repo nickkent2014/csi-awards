@@ -87,7 +87,6 @@ body {
   background-color: var(--bs-body-bg);
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-  height: 100vh;
 }
 
 hr {
@@ -4173,7 +4172,6 @@ textarea.form-control-lg {
     padding: 0;
     overflow-y: visible;
   }
-  
 }
 @media (min-width: 768px) {
   .navbar-expand-md {
@@ -11353,7 +11351,7 @@ textarea.form-control-lg {
   font-weight: 600;
   float: right;
   border-radius: 4px;
-  background-color: #0a58ca;
+  background-color: #5ca1e1;
   border: none;
   color: #fff;
   text-align: center;
@@ -11513,13 +11511,6 @@ textarea.form-control-lg {
 
 
 
-footer.on-index {
-  position: absolute;
-  bottom: 0px;
-  width: 100vw;
-}
-
-
 
 
 #voting-panel {                                     /* blur background when active? */
@@ -11548,6 +11539,7 @@ footer.on-index {
   top: 50px;
   position: fixed;
   z-index: 350;
+  /* background-color: seagreen; */
   background: url("https://svgshare.com/i/fRq.svg") center center/cover no-repeat;
   border: none;
 }
@@ -11559,6 +11551,7 @@ footer.on-index {
 
 .voting-panel-container {
   position: relative;
+  /* background-color: blue; */
   height: 400px;
   width: 500px;
   display: flex;
@@ -11571,6 +11564,7 @@ footer.on-index {
 .voting-panel-banner {
   height: 150px;
   width: 450px;
+  /* background-color: rebeccapurple; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -11579,6 +11573,7 @@ footer.on-index {
 #voting-panel-img {
   height: 150px;
   width: 140px;
+  /* background-color: red; */
   position: relative;
 }                                                 /*change to image*/
 
@@ -11587,11 +11582,13 @@ footer.on-index {
   height: 150px;
   width: 300px;
   font-size: 30px;
+  /* background-color: thistle; */
   margin: 0;
   padding: 10px;
 }
 
 .voting-panel-container form {
+  /* background-color: greenyellow; */
   height: 250px;
   width: 400px;
   display: flex;
@@ -11604,36 +11601,46 @@ footer.on-index {
   display: none;
 }
 
-/* Video */
-
-@media only screen and (max-width: 600px) {
-  video {
-    width: calc(100vw - 18px);
-    height: 60vw;
-    padding: 0px;
-    margin: 0 -1.5rem;
-    left: 0px;
-  }
-  .navbar div:nth-child(1) {
-    transform: translateY(-5px);
-  }
-  footer {
-    display: none;
-  }
-  nav ul {
-    text-align: center;
-  }
-  .nav-item {
-    background-color:#084298;
-    padding: 3px 8px;
-    opacity: 0%;
-    pointer-events: none;
-  }
-  
-  .nav-item.active {
-    opacity: 100%;
-    pointer-events: auto;
-  }
-  
-  
+#thank-you-section {
+  height: calc(100vh - 116px);
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: radial-gradient();
 }
+
+#go-home {
+  height: 30px;
+  width: 100px;
+  background-color: #06357a;
+  color: white;
+  padding-top: 4px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+#submit_button {
+  height: 30px;
+  width: 100px;
+  background-color: #06357a;
+  color: white;
+  border: none;
+  border-radius: 4px;
+}
+
+#thank-you-go-home {
+  height: 60px;
+  width: 160px;
+  background-color: #06357a;
+  color: white;
+  padding-top: 4px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+
+
