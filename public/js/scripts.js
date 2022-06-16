@@ -63,67 +63,61 @@ vote_button.forEach(function(vote_btn, index){
 
         switch (index) {
             case 0:
-                nominee_name = "Nick";
+                nominee_name = "Lynne Billington";
                 break;
             case 1:
-                nominee_name = "Damon";
+                nominee_name = "Jo Coles";
                 break;
             case 2:
-                nominee_name = "Emma";
+                nominee_name = "Heather Crossland";
                 break;
             case 3:
-                nominee_name = "Dan";
+                nominee_name = "Damian Hull";
                 break;
             case 4:
-                nominee_name = "Kay";
+                nominee_name = "Emma O'Grady";
                 break;
             case 5:
-                nominee_name = "Jenni";
+                nominee_name = "Emma Lowe";
                 break;
             case 6:
-                nominee_name = "Danny";
+                nominee_name = "Nicky Holling";
                 break;
             case 7:
-                nominee_name = "Chris";
+                nominee_name = "Rebekah Roberts";
                 break;
             case 8:
-                nominee_name = "Jane";
+                nominee_name = "Danny Dvelys";
                 break;
             case 9:
-                nominee_name = "Dom";
+                nominee_name = "Julie Garner";
                 break;
             case 10:
-                nominee_name = "Joanne";
+                nominee_name = "Chloe Ward";
                 break;
             case 11:
-                nominee_name = "Mavis";
+                nominee_name = "Liam White";
                 break;
             case 12:
-                nominee_name = "Dennis";
+                nominee_name = "Nick Kent";
                 break;
             case 13:
-                nominee_name = "Junior";
+                nominee_name = "Chris Roddison";
                 break;
             case 14:
-                nominee_name = "Irina";
+                nominee_name = "Emma Thompson and Gail Hill";
                 break;
             case 15:
-                nominee_name = "Jack";
+                nominee_name = "Kyle Tindle";
                 break;
             case 16:
-                nominee_name = "John";
+                nominee_name = "Sandra Cawkwell";
                 break;
             case 17:
-                nominee_name = "Alex";
+                nominee_name = "Matt Green";
                 break;
             case 18:
-                nominee_name = "Kaiden";
-                break;
-            case 19:
-                nominee_name = "Jade";
-                break;
-            case 20:
-                nominee_name = "Steven";
+                nominee_name = "Kerrie Zaszlos";
                 break;
         }
 

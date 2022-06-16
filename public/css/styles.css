@@ -11514,7 +11514,7 @@ textarea.form-control-lg {
 
 
 #voting-panel {                                     /* blur background when active? */
-  height: 500px;
+  /* height: 500px; */
   width: 600px;
   position: fixed;
   background-color: #f8f9fa;
@@ -11552,7 +11552,7 @@ textarea.form-control-lg {
 .voting-panel-container {
   position: relative;
   /* background-color: blue; */
-  height: 400px;
+  /* height: 400px; */
   width: 500px;
   display: flex;
   flex-direction: column;
@@ -11575,6 +11575,7 @@ textarea.form-control-lg {
   width: 140px;
   /* background-color: red; */
   position: relative;
+  margin-top: 40px;
 }                                                 /*change to image*/
 
 
@@ -11642,5 +11643,28 @@ textarea.form-control-lg {
   border-radius: 4px;
 }
 
+.job-title {
+  font-weight: 500;
+  line-height: 1.2;
+  font-size: calc(0.8rem + 0.2vw);
+}
 
+#voting-panel-heading {
+  height: 50px;
+  width: 250px;
+  margin-left: 40px;
+}
+video {
+  height: 400px;
+  width: 700px;
+}
+/* #wide-column {
+  width: 95vw;
+} */
 
+@media (max-width: 1399.98px) {
+  video {
+    height: 280px;
+    width: 520px;
+  }
+}
