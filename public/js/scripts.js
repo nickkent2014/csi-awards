@@ -41,17 +41,17 @@ vote_button.forEach(function(vote_btn, index){
             award_name = "Amazing New Addition";
             votee_category.value = "amazing_new_addition";
         }
-        if (index >= 12 && index < 15) {
+        if (index >= 12 && index < 13) {
             voting_panel_img.style.background = "url(/assets/icons/google.png) center center/cover no-repeat"
             award_name = "Google";
             votee_category.value = "google";
         }
-        if (index >= 15 && index < 18) {
+        if (index >= 13 && index < 16) {
             voting_panel_img.style.background = "url(/assets/icons/ductape.png) center center/cover no-repeat"
             award_name = "Duct Tape";
             votee_category.value = "duct_tape";
         }
-        if (index >= 18 && index < 21) {
+        if (index >= 16 && index < 19) {
             voting_panel_img.style.background = "url(/assets/icons/hero.png) center center/cover no-repeat"
             award_name = "Customer Hero";
             votee_category.value = "customer_hero";
