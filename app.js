@@ -30,6 +30,9 @@ app.set("view engine", "ejs")
 app.get("/", (req, res) => {
   res.render("index", {voting_panel: "", message:"Please enter your full name and email address", votee_category: "",nominee_name_form: "" })
 });
+app.get("/nominees", (req, res) => {
+  res.render("nominees")
+});
 
 app.get("/categories", (req, res) => {
   res.render("categories")
